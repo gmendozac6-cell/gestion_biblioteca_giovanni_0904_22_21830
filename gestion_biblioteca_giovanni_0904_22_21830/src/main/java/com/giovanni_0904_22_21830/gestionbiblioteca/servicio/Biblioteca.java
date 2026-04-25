@@ -18,7 +18,6 @@ public class Biblioteca {
     }
 
     public List<Libro> obtenerLibros() {
-        // Devolvemos una copia para proteger la lista original (Encapsulamiento)
         return new ArrayList<>(libros);
     }
 
@@ -28,6 +27,6 @@ public class Biblioteca {
                 return libro;
             }
         }
-        return null; // Retorna null si no lo encuentra
+        return null; 
     }
 }
